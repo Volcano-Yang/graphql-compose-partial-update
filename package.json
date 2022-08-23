@@ -1,8 +1,14 @@
 {
   "name": "graphql-compose-partial-update",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "解决graphql-compose-mongoose中无法只更新定义模型中的新传入值属性的问题",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "keywords": [
+    "graphql-compose",
+    "graphql-compose-mongoose",
+    "partial-update",
+    "mutation"
+  ],
   "scripts": {
     "tsc": "tsc",
     "webpack": "webpack --mode production --config webpack.config.js --progress",
