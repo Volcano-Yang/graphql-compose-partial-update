@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist",
+      "target": "esnext",
+      "module": "commonjs",
+      "strict": true,
+      "lib": ["es2018"],
+      "sourceMap": true,
+      "skipLibCheck": true,
+      "declaration": true,
+      "declarationDir": "dist",
+    },
+    "exclude": [
+      "./node_modules",
+    ]
+  }
+  
